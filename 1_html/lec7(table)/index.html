@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLE</title>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <th>student id</th>
+        <th>student name</th>
+        <th>gender</th>
+        <th>age</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1234</td>
+          <td>ANUJ</td>
+          <td>Male</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>1233</td>
+          <td>SHREYASH</td>
+          <td>Male</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>1232</td>
+          <td>SARWAGYA</td>
+          <td>MALE</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>1231</td>
+          <td>SHASHANK</td>
+          <td>Male</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--TABLE 2-->
+    <h2>table 2 :- to understand the use of rowspan and colspan</h2>
+
+    <table border="1">
+      <thead>
+        <th>student id</th>
+        <th>student name</th>
+        <th>gender</th>
+        <th>age</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1234</td>
+          <td colspan="3">ANUJ</td>
+          <!--colspan="3"is used to expand the area of column bby 3 units-->
+          <!-- <td>Male</td>
+                <td>22</td> -->
+        </tr>
+        <tr>
+          <td>1233</td>
+          <td>SHREYASH</td>
+          <td>Male</td>
+          <!--rowspan="3" is used to extend the area of row by 3 rows-->
+          <td rowspan="3">21</td>
+        </tr>
+        <tr>
+          <td>1232</td>
+          <td>SARWAGYA</td>
+          <td>MALE</td>
+          <!-- <td>20</td> -->
+        </tr>
+        <tr>
+          <td>1231</td>
+          <td>SHASHANK</td>
+          <td>Male</td>
+          <!-- <td>20</td> -->
+        </tr>
+      </tbody>
+    </table>
+
+    <!--TABLE 3-->
+    <h2>table 3 :-</h2>
+    <table border="1">
+      <tr>
+        <td>column 1</td>
+        <td>column 2</td>
+        <td>column 3</td>
+      </tr>
+      <tr>
+        <td rowspan="2">row 1 cell 1</td>
+        <td>row 1 cell 2</td>
+        <td>row 1 cell 3</td>
+      </tr>
+      <tr>
+        <td>row 2 cell 2</td>
+        <td>row 3 cell 3</td>
+      </tr>
+      <tr>
+        <td colspan="3">row 3 cell 1</td>
+      </tr>
+    </table>
+
+    <!--TABLE 4-->
+    <h2>table 4 :-</h2>
+    <table border="1">
+      <thead>
+        <th>no.</th>
+        <th>full name</th>
+        <th>position</th>
+        <th>salary</th>
+        <th>type</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>bill gates</td>
+          <td>founder microsoft</td>
+          <td>$1000</td>
+          <td rowspan="4">company founder</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>steve jobd</td>
+          <td>founder apple</td>
+          <td>$1100</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>larry page</td>
+          <td>founder google</td>
+          <td>$1200</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>mark Zuckerberg</td>
+          <td>founder facebook</td>
+          <td>$1300</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">total expences</td>
+          <td>$4600</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!--TABLE 5-->
+    <h2>table 5 :-</h2>
+    <table border="1">
+      <thead>
+        <th>country</th>
+        <th>state</th>
+        <th>city</th>
+        <th>street</th>
+        <th>male</th>
+        <th>female</th>
+        <th>others</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="8">1</td>
+          <td rowspan="4">kerela</td>
+          <td rowspan="2">cochin</td>
+          <td>new street</td>
+          <td>500</td>
+          <td>600</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>main strrt</td>
+          <td>300</td>
+          <td>288</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td rowspan="2">trivandrum</td>
+          <td>giru street</td>
+          <td>500</td>
+          <td>600</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>tvk street</td>
+          <td>500</td>
+          <td>600</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td rowspan="4">maharashtra</td>
+          <td rowspan="2">mumbai</td>
+          <td>krisha street</td>
+          <td>700</td>
+          <td>850</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>main street</td>
+          <td>500</td>
+          <td>600</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td rowspan="2">surat</td>
+          <td>new street</td>
+          <td>500</td>
+          <td>600</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>billa street</td>
+          <td>500</td>
+          <td>600</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2</td>
+          <td rowspan="2">alska</td>
+          <td rowspan="2">aka central</td>
+          <td>new sreet</td>
+          <td>200</td>
+          <td>210</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>cross street</td>
+          <td>1000</td>
+          <td>1050</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--HOMEWORK WALA TABLE-->
+    <h2>table 6</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th rowspan="3">Day</th>
+          <th colspan="3">seminar</th>
+        </tr>
+        <tr>
+          <th colspan="2">schedule</th>
+          <th rowspan="2">topic</th>
+        </tr>
+        <tr>
+          <th>begin</th>
+          <th>end</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">8:00 a.m</td>
+          <td rowspan="2">5:00 p.m</td>
+          <td>introduction to XML</td>
+        </tr>
+        <tr>
+          <td>valadity DTD and relax NG</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Tuesday</td>
+          <td>8:00 a.m</td>
+          <td>11:00 a.m</td>
+          <td rowspan="2">XPath</td>
+        </tr>
+        <tr>
+          <td>11:00 a.m</td>
+          <td>2:00 p.m</td>
+        </tr>
+        <tr>
+          <td>2:00 p.m</td>
+          <td>5:00 p.m</td>
+          <td>XSL transformation</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>8:00 a.m</td>
+          <td>12:00 p.m</td>
+          <td>XSL Formatting Objects</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
